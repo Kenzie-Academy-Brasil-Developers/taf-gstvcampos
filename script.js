@@ -34,13 +34,15 @@ let passed = false;
 if (gender == "male") {
     if (height > 1.69 && (barReps > 5 || barSeconds < 14) &&
     abs > 40 && (run3km < 13 || run5km < 21) &&
-    (swim <= 1 || dive < 30));
-    passed = true
+    (swim <= 1 || dive < 30)) {
+        passed = true;
+    }
 }
 
 if (gender == "female") {
     if (height > 1.59 && (barReps > 4 || barSeconds < 13) &&
     abs > 40 && (run3km < 16 || run5km < 23) &&
-    (swim <= 1 || dive < 30));
-    passed = true
+    (swim <= 1 || dive < 30)) {
+        passed = true;
+    }
 }

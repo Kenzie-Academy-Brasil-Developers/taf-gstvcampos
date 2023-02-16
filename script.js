@@ -27,7 +27,7 @@ if (gender == "male") {
     abs >= 41 && //Pelo menos 41 abdominais
     ((runDistance <= 3000 && runTime <= 720) || //3km em no máximo 12 min ou
     (runDistance <= 5000 && runTime <= 1200)) && //5km em no máximo 20 min
-    ((swimDistance >= 100 && swimTime <= 60) || //⁠Pelo menos 100m em no máximo de 1 min
+    ((swimDistance >= 100 && swimTime <= 60) || //⁠Pelo menos 100m em no máximo de 1 min ou
     (diveTime <= 30))) { //30s de mergulho
         passed = true;
     }
@@ -35,11 +35,11 @@ if (gender == "male") {
 
 if (gender == "female") {
     if (height >= 1.60 && //Pelo menos 1,60 altura
-    (barReps >= 5 || barSeconds <= 12) && //Pelo menos 5 repetições de barra ou 15 segundos de duração
+    (barReps >= 5 || barSeconds <= 12) && //Pelo menos 5 repetições de barra ou 12 segundos de duração
     abs >= 41 && //Pelo menos 41 abdominais
     ((runDistance <= 4000 && runTime <= 900) || //4km em no máximo 15 min ou
     (runDistance <= 6000 && runTime <= 1320)) && //6km em no máximo 22 min
-    ((swimDistance >= 100 && swimTime <= 60) || //⁠Pelo menos 100m em no máximo de 1 min
+    ((swimDistance >= 100 && swimTime <= 60) || //⁠Pelo menos 100m em no máximo de 1 min ou
     (diveTime <= 30))) { //30s de mergulho
         passed = true;
     }
